@@ -316,3 +316,75 @@ header {
   padding: 8px;
 }
 
+
+
+.changelog {
+  padding: 100px 20px;
+  color: #fff;
+  font-family: CursorGothic_Regular;
+}
+
+.changelog-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.changelog-title {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.changelog-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.changelog-card {
+  background: #1b1913;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: background 0.2s ease, border 0.2s ease;
+}
+
+.changelog-card:hover {
+  background: #191712;
+  border-color: #2f2c23;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: #b8b6ad;
+}
+
+.version {
+  border: 1px solid #3a372d;
+  border-radius: 25px;
+  padding: 2px 8px;
+  font-size: 10px;
+  color: #e6e4dc;
+}
+
+.changelog-card h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.changelog-link {
+  font-size: 14px;
+  color: #ff6a00;
+  text-decoration: none;
+}
+
+.changelog-link:hover {
+  opacity: 0.85;
+}
