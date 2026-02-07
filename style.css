@@ -255,6 +255,64 @@ header {
   color: #aaa;
 }
 
-.frontier h3 {
-    
+.frontier {
+  padding: 100px 20px;
+  color: #fff;
+  font-family: CursorGothic_Regular;
 }
+
+.frontier-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.frontier-title {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.frontier-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.frontier-card {
+  background: #1b1913;
+  border-radius: 5px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.frontier-card h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.frontier-card p {
+  font-size: 14px;
+  color: #b5b5b5;
+  line-height: 1.6;
+}
+
+.frontier-link {
+  font-size: 14px;
+  color: #ff6a00;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.frontier-link:hover {
+  opacity: 0.8;
+}
+
+.card-demo {
+  margin-top: auto;
+  background: #1b1913;
+  border-radius: 10px;
+  padding: 8px;
+}
+
