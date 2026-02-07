@@ -439,3 +439,78 @@ header {
   object-fit: cover;
   display: block;
 }
+
+.highlights {
+  background-color: #1b1913;
+  padding: 120px 24px;
+  color: #ffffff;
+  font-family: CursorGothic_Regular;
+}
+
+.highlights-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 32px;
+}
+
+.highlights-left h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #d6d4cb;
+}
+
+.highlights-right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.highlight-card {
+  background-color: #191712;
+  border: 1px solid #2f2c23;;
+  border-radius: 5px;
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 700px;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.highlight-card:hover {
+  background: #191712;
+  border-color: #2f2c23;
+}
+
+.highlight-card h4 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.highlight-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #b7b5ad;
+}
+
+.meta {
+  font-size: 13px;
+  color: #9a988f;
+  margin-top: 4px;
+}
+
+.highlights-link {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #ff6a00;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.highlights-link:hover {
+  opacity: 0.85;
+}
+
