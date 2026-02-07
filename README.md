@@ -15,18 +15,18 @@ It is a **frontend UI clone for practice purposes only**.
 ---
 
 ## 🗂 Project Structure
-
+```
 /
 ├── index.html
 ├── style.css
 └── src/
-├── CursorGothic_Regular.woff2
-├── favicon.svg
-├── logo-dark-theme.mp4
-├── cursor.png
-├── images (png, jpg, webp)
-└── icons (svg)
-
+    ├── CursorGothic_Regular.woff2
+    ├── favicon.svg
+    ├── logo-dark-theme.mp4
+    ├── cursor.png
+    ├── images (png, jpg, webp)
+    └── icons (svg)
+```
 ---
 
 ## 🛠 Technologies Used
